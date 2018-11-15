@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="15e6b4b5-6ff9-43fc-ad66-2d8b36fea02e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Test Project/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DOTween.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DOTween/DOTween.XML" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DOTween/DOTween.XML.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DOTween/DOTween.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DOTween/DOTween.dll.mdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DOTween/DOTween.dll.mdb.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DOTween/DOTween.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DOTween/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DOTween/Editor/DOTweenEditor.XML" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DOTween/Editor/DOTweenEditor.XML.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DOTween/Editor/DOTweenEditor.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DOTween/Editor/DOTweenEditor.dll.mdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DOTween/Editor/DOTweenEditor.dll.mdb.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DOTween/Editor/DOTweenEditor.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DOTween/Editor/Imgs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DOTween/Editor/Imgs/DOTweenIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DOTween/Editor/Imgs/DOTweenIcon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DOTween/Editor/Imgs/Footer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DOTween/Editor/Imgs/Footer.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DOTween/Editor/Imgs/Footer_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DOTween/Editor/Imgs/Footer_dark.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DOTween/Editor/Imgs/Header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DOTween/Editor/Imgs/Header.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DOTween/Modules.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DOTween/Modules/DOTweenModuleAudio.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DOTween/Modules/DOTweenModuleAudio.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DOTween/Modules/DOTweenModulePhysics.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DOTween/Modules/DOTweenModulePhysics.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DOTween/Modules/DOTweenModulePhysics2D.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DOTween/Modules/DOTweenModulePhysics2D.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DOTween/Modules/DOTweenModuleSprite.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DOTween/Modules/DOTweenModuleSprite.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DOTween/Modules/DOTweenModuleUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DOTween/Modules/DOTweenModuleUI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DOTween/Modules/DOTweenModuleUnityVersion.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DOTween/Modules/DOTweenModuleUnityVersion.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DOTween/Modules/DOTweenModuleUtils.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DOTween/Modules/DOTweenModuleUtils.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DOTween/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DOTween/readme.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Materials/defaultMat.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Materials/defaultMat.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Materials/palette.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Materials/palette.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/cube-0.mtl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/cube-0.mtl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/cube-0.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/cube-0.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/cube-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/cube-0.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/fooder01_drive.mtl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/fooder01_drive.mtl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/fooder01_drive.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/fooder01_drive.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/fooder01_drive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/fooder01_drive.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/security01_attack.mtl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/security01_attack.mtl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/security01_attack.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/security01_attack.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/security01_attack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/security01_attack.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/security01_run.mtl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/security01_run.mtl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/security01_run.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/security01_run.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/security01_run.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/security01_run.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/security01_stand.mtl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/security01_stand.mtl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/security01_stand.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/security01_stand.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/security01_stand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/security01_stand.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/stu01_stand.mtl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/stu01_stand.mtl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/stu01_stand.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/stu01_stand.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/stu01_stand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/stu01_stand.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/stu01_walk.mtl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/stu01_walk.mtl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/stu01_walk.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/stu01_walk.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/stu01_walk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/stu01_walk.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/stu02_stand.mtl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/stu02_stand.mtl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/stu02_stand.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/stu02_stand.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/stu02_stand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/stu02_stand.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/stu02_walk.mtl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/stu02_walk.mtl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/stu02_walk.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/stu02_walk.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/stu02_walk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/stu02_walk.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/stu03_stand.mtl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/stu03_stand.mtl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/stu03_stand.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/stu03_stand.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/stu03_stand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/stu03_stand.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/stu03_walk.mtl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/stu03_walk.mtl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/stu03_walk.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/stu03_walk.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/stu03_walk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/stu03_walk.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/tea01_attack.mtl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/tea01_attack.mtl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/tea01_attack.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/tea01_attack.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/tea01_attack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/tea01_attack.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/tea01_stand.mtl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/tea01_stand.mtl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/tea01_stand.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/tea01_stand.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/tea01_stand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/tea01_stand.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/tea01_walk.mtl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/tea01_walk.mtl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/tea01_walk.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/tea01_walk.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/tea01_walk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/tea01_walk.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/test.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/test.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Materials/palette.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Materials/palette.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/New Prefab.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/New Prefab.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/CreateCube.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/CreateCube.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/Floor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/Floor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/NewBehaviourScript.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/NewBehaviourScript.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Test Scene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Test Scene.unity.meta" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-2006861636">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="GuangZhiBattle" value="1" />
+          <entry key="cs" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="3" />
+          <entry key="UNKNOWN" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cs" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="9" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Script/NewBehaviourScript.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Script/Floor.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="884">
+              <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+              <folding>
+                <marker date="1542278888348" expanded="false" signature="6:78" ph="..." />
+                <marker date="1542278888348" expanded="true" signature="115:1830" ph="{...}" />
+                <marker date="1542278888348" expanded="true" signature="389:924" ph="{...}" />
+                <marker date="1542278888348" expanded="true" signature="399:904" ph="/* for(int i = 0; i &lt; 16; i++) ... */" />
+                <marker date="1542278888348" expanded="true" signature="979:1733" ph="{...}" />
+                <marker date="1542278888348" expanded="true" signature="1050:1523" ph="{...}" />
+                <marker date="1542278888348" expanded="true" signature="1136:1513" ph="{...}" />
+                <marker date="1542278888348" expanded="true" signature="1344:1499" ph="{...}" />
+                <marker date="1542278888348" expanded="true" signature="1548:1730" ph="{...}" />
+                <marker date="1542278888348" expanded="true" signature="1601:1689" ph="{...}" />
+                <marker date="1542278888348" expanded="true" signature="1788:1828" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Script/CreateCube.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <marker date="1542278829337" expanded="false" signature="6:97" ph="..." />
+                <marker date="1542278829337" expanded="true" signature="139:473" ph="{...}" />
+                <marker date="1542278829337" expanded="true" signature="216:322" ph="{...}" />
+                <marker date="1542278829337" expanded="true" signature="377:471" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Script/CreateCube.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/NewBehaviourScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Floor.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Script/CreateCube.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Floor.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="351" />
+    <option name="y" value="159" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Script" type="1045f7f1:UnityExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-hidden-items" value="false" />
+      </pane>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GuangZhiBattle" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+  </component>
+  <component name="RecentsManager">
+    <key name="OPEN_URL_DIALOG">
+      <recent name="https://github.com/WuQingYi20/GuangZhiBattle" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor" />
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor &amp; Play" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="15e6b4b5-6ff9-43fc-ad66-2d8b36fea02e" name="Default Changelist" comment="" />
+      <created>1542278506871</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542278506871</updated>
+      <workItem from="1542278509741" duration="649000" />
+      <workItem from="1542279270651" duration="1001000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1650000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="351" y="159" width="1400" height="1000" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25373134" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Script/NewBehaviourScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/Floor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+          <folding>
+            <marker date="1542278888348" expanded="false" signature="6:78" ph="..." />
+            <marker date="1542278888348" expanded="true" signature="115:1830" ph="{...}" />
+            <marker date="1542278888348" expanded="true" signature="389:924" ph="{...}" />
+            <marker date="1542278888348" expanded="true" signature="399:904" ph="/* for(int i = 0; i &lt; 16; i++) ... */" />
+            <marker date="1542278888348" expanded="true" signature="979:1733" ph="{...}" />
+            <marker date="1542278888348" expanded="true" signature="1050:1523" ph="{...}" />
+            <marker date="1542278888348" expanded="true" signature="1136:1513" ph="{...}" />
+            <marker date="1542278888348" expanded="true" signature="1344:1499" ph="{...}" />
+            <marker date="1542278888348" expanded="true" signature="1548:1730" ph="{...}" />
+            <marker date="1542278888348" expanded="true" signature="1601:1689" ph="{...}" />
+            <marker date="1542278888348" expanded="true" signature="1788:1828" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="https://github.com/WuQingYi20/GuangZhiBattle">
+      <provider selected="true" editor-type-id="httpFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/CreateCube.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <marker date="1542278829337" expanded="false" signature="6:97" ph="..." />
+            <marker date="1542278829337" expanded="true" signature="139:473" ph="{...}" />
+            <marker date="1542278829337" expanded="true" signature="216:322" ph="{...}" />
+            <marker date="1542278829337" expanded="true" signature="377:471" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
