@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\Incubator4\.Rider2018.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Incubator4\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_Test Project.579963458.00" t="ExcludeRecursive" />
-    <e p="E:\UnityProjects\Test Project" t="IncludeRecursive">
+    <e p="C:\Users\Incubator4\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_Test Project.2131540623.00" t="ExcludeRecursive" />
+    <e p="E:\UnityProjects\GuangZhiBattle\Test Project" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets\DOTween" t="Include">
         <e p="Modules" t="Include">
@@ -17,10 +17,23 @@
         </e>
         <e p="readme.txt" t="Include" />
       </e>
+      <e p="Assets\Models" t="Include">
+        <e p="地砖" t="Include">
+          <e p="readme.txt" t="Include" />
+        </e>
+        <e p="场景" t="Include">
+          <e p="readme.txt" t="Include" />
+        </e>
+      </e>
       <e p="Assets\Script" t="Include">
+        <e p="BallDestroy.cs" t="Include" />
+        <e p="BoundaryDestroy.cs" t="Include" />
+        <e p="CameraController.cs" t="Include" />
         <e p="CreateCube.cs" t="Include" />
+        <e p="ExplosionAttach.cs" t="Include" />
         <e p="Floor.cs" t="Include" />
-        <e p="NewBehaviourScript.cs" t="Include" />
+        <e p="PlayerController.cs" t="Include" />
+        <e p="StartGame.cs" t="Include" />
       </e>
       <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />

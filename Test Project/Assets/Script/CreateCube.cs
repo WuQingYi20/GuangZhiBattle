@@ -11,10 +11,13 @@ public class CreateCube : MonoBehaviour {
         x = transform.position.x;
         y = transform.position.y;
         z = transform.position.z;
+		ShortcutExtensions.DOMove(transform, new Vector3(x,y+20,z), Random.Range(0f,3f));
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        ShortcutExtensions.DOMove(transform, new Vector3(x,y+20,z), Random.Range(0f,5f));
+		if (transform.position.y<-80) {
+			Destroy(gameObject);
+		}
 	}
 }

@@ -62,10 +62,17 @@
     <Compile Include="Assets\DOTween\Modules\DOTweenModuleUI.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModuleUtils.cs" />
+    <Compile Include="Assets\Script\BallDestroy.cs" />
+    <Compile Include="Assets\Script\BoundaryDestroy.cs" />
+    <Compile Include="Assets\Script\CameraController.cs" />
     <Compile Include="Assets\Script\CreateCube.cs" />
+    <Compile Include="Assets\Script\ExplosionAttach.cs" />
     <Compile Include="Assets\Script\Floor.cs" />
-    <Compile Include="Assets\Script\NewBehaviourScript.cs" />
+    <Compile Include="Assets\Script\PlayerController.cs" />
+    <Compile Include="Assets\Script\StartGame.cs" />
     <None Include="Assets\DOTween\readme.txt" />
+    <None Include="Assets\Models\地砖\readme.txt" />
+    <None Include="Assets\Models\场景\readme.txt" />
     <Reference Include="UnityEngine.UI">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
     </Reference>
