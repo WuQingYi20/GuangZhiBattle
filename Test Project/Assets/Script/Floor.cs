@@ -1,16 +1,45 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.IO;
+using System.Net;
 using DG.Tweening;
 using UnityEngine;
+using Random = UnityEngine.Random;
+
+
+public class JsonItemList {
+	public List<Item> Items;
+	public int total;
+}
+[Serializable]
+public class Item {
+	public int id;
+	public string name;
+	public int relpos_x;
+	public int relpos_z;
+	public int angle;
+}
 
 public class Floor : MonoBehaviour {
 
     public GameObject cube;
-	public int floorLength = 16;
+	public int floorWidth= 8;
+	public int floorLength = 12;
     public MeshFilter mf;
     public GameObject floor;
 	public bool infiniteTime;
+	public GameObject SchoolBag,Chair,Desk,LongDesk,Podium;
     public List<List<GameObject>> FloorList = new List<List<GameObject>>();
+	
+	public List<GameObject> ItemList = new List<GameObject>();
+	public Dictionary<int,GameObject> indexDict = new Dictionary<int, GameObject>();
+
+	public GameObject objectitemList;
+	private float tile_height=2;
+	private int timeInterval = 3;
+	private int beginWaitTime = 7;
+	private int unitLength = 20;
     private int count = -5;
     private bool finishflag = false;
     private static int delta = 5;
@@ -20,7 +49,11 @@ public class Floor : MonoBehaviour {
     // Use this for initialization
     void Start () {
 
-            
+	    indexDict.Add(1,SchoolBag);
+	    indexDict.Add(2, Chair);
+	    indexDict.Add(5,Podium);
+	    indexDict.Add(6,Desk);
+	    loadItemsByJsonFile("Map1.json");
 
     }
 	
@@ -31,10 +64,10 @@ public class Floor : MonoBehaviour {
         {
             int i = count / delta;
 	        List<GameObject> temlist = new List<GameObject>();
-            for (int j = 0; j < floorLength; j++) {
-                tmp = GameObject.Instantiate(cube, new Vector3(20 * i, -10, 20 * j), Quaternion.identity);
+            for (int j = 0; j < floorWidth; j++) {
+                tmp = GameObject.Instantiate(cube, new Vector3(unitLength * i, -10, unitLength * j), Quaternion.identity);
                 tmp.transform.parent = floor.transform;
-	            tmp.transform.DOMove(new Vector3(20 * i, 0, 20 * j), Random.Range(0f, 2f));
+	            tmp.transform.DOMove(new Vector3(unitLength * i, 0, unitLength * j), Random.Range(0f, 2f));
                 temlist.Add(tmp);
 
 
@@ -49,9 +82,9 @@ public class Floor : MonoBehaviour {
 
 		if (!infiniteTime) {
 			for (int i = 0; i < floorLength; i++) {
-				for (int j = 0; j < floorLength; j++) {
+				for (int j = 0; j < floorWidth; j++) {
 					if (FloorList[i][j]!=null) {
-						if (Time.timeSinceLevelLoad> 5+i*2) {
+						if (Time.timeSinceLevelLoad> beginWaitTime+i*timeInterval) {
 							Vector3 obj_p = FloorList[i][j].transform.position;
 							FloorList[i][j].transform.DOMove(obj_p-new Vector3(0,60,0), Random.Range(0f, 5f));
 						}
@@ -68,8 +101,8 @@ public class Floor : MonoBehaviour {
 	        }
 	    }*/
 		for (int i = 0; i < floorLength; i++) {
-			for (int j = 0; j < floorLength; j++) {
-				if (FloorList[i][j]!=null) {
+			for (int j = 0; j < floorWidth; j++) {
+				if (FloorList.Count >i && FloorList[i].Count>j && FloorList[i][j]!=null) {
 					float f_y = FloorList[i][j].GetComponent<Rigidbody>().velocity.x;
 					FloorList[i][j].GetComponent<Rigidbody>().velocity = new Vector3(0.0f,f_y,0.0f);
 				}
@@ -83,6 +116,19 @@ public class Floor : MonoBehaviour {
 		
 	}
 
+	private void loadItemsByJsonFile(string Jsonname) {
+		string jsonString = File.ReadAllText(Application.dataPath+ @"/Maps/" + Jsonname);
+		JsonItemList itemList = JsonUtility.FromJson<JsonItemList>(jsonString);
+		
+		Debug.Log(itemList.total);
+		foreach (var item in itemList.Items) {
+			var tmp = Instantiate(indexDict[item.id],
+				new Vector3(item.relpos_x * unitLength, tile_height, item.relpos_z * unitLength),
+				Quaternion.Euler(0, item.angle, 0));
+			tmp.transform.parent = objectitemList.transform;
+			Debug.Log(item.name);
+		}
+	}
 	private void OnCollisionEnter(Collision collision)
     {
         Debug.Log("物体接触了");

@@ -7,6 +7,7 @@ TagManager:
   - Floor
   - Ball
   - breakable
+  - unbreakable
   layers:
   - Default
   - TransparentFX

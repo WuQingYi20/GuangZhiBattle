@@ -281,8 +281,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 252c0bd415acd3244b0d019e8948b07a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  height: 50
-  distance: -50
+  height: 125
+  distance: -125
   player: {fileID: 1421548813}
 --- !u!1001 &426289591
 Prefab:
@@ -393,6 +393,34 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1004063685
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1004063686}
+  m_Layer: 8
+  m_Name: ItemList
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1004063686
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1004063685}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1053598859
 Prefab:
   m_ObjectHideFlags: 0
@@ -441,7 +469,7 @@ Prefab:
     - target: {fileID: 114434133053333402, guid: 9f64061749687cd4e9ad89d3751850ef,
         type: 2}
       propertyPath: infiniteTime
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1987068464693256, guid: 9f64061749687cd4e9ad89d3751850ef, type: 2}
       propertyPath: m_Layer
@@ -451,6 +479,46 @@ Prefab:
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
+    - target: {fileID: 114434133053333402, guid: 9f64061749687cd4e9ad89d3751850ef,
+        type: 2}
+      propertyPath: floorLength
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 114434133053333402, guid: 9f64061749687cd4e9ad89d3751850ef,
+        type: 2}
+      propertyPath: SchoolBag
+      value: 
+      objectReference: {fileID: 1685604368139910, guid: cbc39a49d5cbfc04ca10751234974e2a,
+        type: 2}
+    - target: {fileID: 114434133053333402, guid: 9f64061749687cd4e9ad89d3751850ef,
+        type: 2}
+      propertyPath: Chair
+      value: 
+      objectReference: {fileID: 1528082290260376, guid: e6de60c60599a68418cb383decafe05c,
+        type: 2}
+    - target: {fileID: 114434133053333402, guid: 9f64061749687cd4e9ad89d3751850ef,
+        type: 2}
+      propertyPath: Desk
+      value: 
+      objectReference: {fileID: 1123025638704120, guid: c6823657c02dfc943b076afb59fd95d9,
+        type: 2}
+    - target: {fileID: 114434133053333402, guid: 9f64061749687cd4e9ad89d3751850ef,
+        type: 2}
+      propertyPath: LongDesk
+      value: 
+      objectReference: {fileID: 1513502217617456, guid: 37b0f235fdc3d744a8638396484f5bfe,
+        type: 2}
+    - target: {fileID: 114434133053333402, guid: 9f64061749687cd4e9ad89d3751850ef,
+        type: 2}
+      propertyPath: Podium
+      value: 
+      objectReference: {fileID: 1977187822133650, guid: b744ce3d2311c6842aa0c4c60eaf4e4d,
+        type: 2}
+    - target: {fileID: 114434133053333402, guid: 9f64061749687cd4e9ad89d3751850ef,
+        type: 2}
+      propertyPath: objectitemList
+      value: 
+      objectReference: {fileID: 1004063685}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9f64061749687cd4e9ad89d3751850ef, type: 2}
   m_IsPrefabParent: 0
