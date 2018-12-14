@@ -8,7 +8,10 @@ public class PlayerController : MonoBehaviour {
 
 	public float speed;
 	public bool canDrop;
+	[Range (3, 7)]
 	public int maxBallCount;
+	[Range (1, 3)]
+	public int BoomDelay = 2;
 	public GameObject BallList;
 	public GameObject ball;
 
@@ -64,7 +67,7 @@ public class PlayerController : MonoBehaviour {
 		if (ball) {
 			var tmp = Instantiate(ball, repairPosition(transform.position+new Vector3(10,0,10)),ball.transform.rotation);
 			tmp.transform.parent = BallList.transform;
-			Destroy(tmp,5);
+			Destroy(tmp,BoomDelay);
 		}
 	}
 

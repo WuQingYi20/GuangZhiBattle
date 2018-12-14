@@ -36,19 +36,19 @@ public class Floor : MonoBehaviour {
 	public Dictionary<int,GameObject> indexDict = new Dictionary<int, GameObject>();
 
 	public GameObject objectitemList;
+	private int actionMove = 10;
 	private float tile_height=2;
 	private int timeInterval = 3;
 	private int beginWaitTime = 7;
 	private int unitLength = 20;
     private int count = -5;
-    private bool finishflag = false;
     private static int delta = 5;
 	private GameObject tmp;
-    private bool initFlag = false;
 
     // Use this for initialization
     void Start () {
 
+	    initFloors();
 	    indexDict.Add(1,SchoolBag);
 	    indexDict.Add(2, Chair);
 	    indexDict.Add(5,Podium);
@@ -59,25 +59,8 @@ public class Floor : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        count++;
-        if (count % delta == 0 && count < floorLength* delta && !initFlag)
-        {
-            int i = count / delta;
-	        List<GameObject> temlist = new List<GameObject>();
-            for (int j = 0; j < floorWidth; j++) {
-                tmp = GameObject.Instantiate(cube, new Vector3(unitLength * i, -10, unitLength * j), Quaternion.identity);
-                tmp.transform.parent = floor.transform;
-	            tmp.transform.DOMove(new Vector3(unitLength * i, 0, unitLength * j), Random.Range(0f, 2f));
-                temlist.Add(tmp);
+        
 
-
-            }
-	        FloorList.Add(temlist);
-        }
-
-	    if (count>floorLength*delta) {
-		    initFlag = true;
-	    }
 
 
 		if (!infiniteTime) {
@@ -86,7 +69,7 @@ public class Floor : MonoBehaviour {
 					if (FloorList[i][j]!=null) {
 						if (Time.timeSinceLevelLoad> beginWaitTime+i*timeInterval) {
 							Vector3 obj_p = FloorList[i][j].transform.position;
-							FloorList[i][j].transform.DOMove(obj_p-new Vector3(0,60,0), Random.Range(0f, 5f));
+							FloorList[i][j].transform.DOMove(obj_p-new Vector3(0,60,0), Random.Range(0f, 4f));
 						}
 					}
 				}
@@ -116,17 +99,42 @@ public class Floor : MonoBehaviour {
 		
 	}
 
+	private void initFloors() {
+		for (int count = 0; count < floorLength* delta; count++) {
+			if (count % delta == 0 && count < floorLength* delta )
+			{
+				int i = count / delta;
+				List<GameObject> temlist = new List<GameObject>();
+				for (int j = 0; j < floorWidth; j++) {
+					var randomHeight = Random.Range(5f, 15f);
+					tmp = GameObject.Instantiate(cube, 
+						new Vector3(unitLength * i, -(actionMove+randomHeight), unitLength * j), 
+						Quaternion.identity);
+					tmp.transform.parent = floor.transform;
+					tmp.transform.DOMove(new Vector3(unitLength * i, 0, unitLength * j), Random.Range(0f, 4f));
+					temlist.Add(tmp);
+
+
+				}
+				FloorList.Add(temlist);
+			}
+		}
+	}
+	
 	private void loadItemsByJsonFile(string Jsonname) {
 		string jsonString = File.ReadAllText(Application.dataPath+ @"/Maps/" + Jsonname);
 		JsonItemList itemList = JsonUtility.FromJson<JsonItemList>(jsonString);
 		
 		Debug.Log(itemList.total);
 		foreach (var item in itemList.Items) {
+			var rangeHeight = Random.Range(20f, 40f);
 			var tmp = Instantiate(indexDict[item.id],
-				new Vector3(item.relpos_x * unitLength, tile_height, item.relpos_z * unitLength),
+				new Vector3(item.relpos_x * unitLength, tile_height+actionMove*4+rangeHeight, item.relpos_z * unitLength),
 				Quaternion.Euler(0, item.angle, 0));
+			
 			tmp.transform.parent = objectitemList.transform;
-			Debug.Log(item.name);
+			tmp.transform.DOMove(new Vector3(item.relpos_x * unitLength, tile_height,
+				item.relpos_z * unitLength), Random.Range(0f, 4f));
 		}
 	}
 	private void OnCollisionEnter(Collision collision)
